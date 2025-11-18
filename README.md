@@ -49,24 +49,12 @@ Twitter empowers free speech, but this freedom is sometimes misused to spread ha
 <img width="1417" height="721" alt="Screenshot 2025-08-17 133639" src="https://github.com/user-attachments/assets/9601c1d6-60bf-4e98-9245-0dc552485a1e" />
 
 
-### Deep Learning Models
-| Model | Accuracy | Precision | Recall  | F1 Score |
-|-------|---------|----------|--------|----------|
-| CNN   | 0.8545  | 0.8582   | 0.8545 | 0.8560   |
-| GRU   | 0.8570  | 0.8543   | 0.8570 | 0.8550   |
-| LSTM  | 0.8564  | 0.8530   | 0.8564 | 0.8545   |
-
-
-
-<img width="1408" height="700" alt="Screenshot 2025-08-17 133704" src="https://github.com/user-attachments/assets/c7cb3799-4fde-40f4-8774-e27fb9fd38c5" />
-
 ---
 
 ## Final Model
 - **Voting Ensemble** (Logistic Regression + Naive Bayes + SVM) chosen for deployment.  
 - Trained using **scikit-learn**.  
 - Vectorization with **CountVectorizer**.  
-
 
 ---
 
